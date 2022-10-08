@@ -1,0 +1,12 @@
+# CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.ApplicationStateChangeReasonCodes
+
+## Enum
+
+* `NOT_APPLICABLE` (value: `"NOT_APPLICABLE"`)
+* `OUT_OF_SERVICE_HOURS` (value: `"OUT_OF_SERVICE_HOURS"`)
+* `OUT_OF_SERVICE_HARDWARE` (value: `"OUT_OF_SERVICE_HARDWARE"`)
+* `OUT_OF_SERVICE_BHS` (value: `"OUT_OF_SERVICE_BHS"`)
+* `OUT_OF_SERVICE_CONSUMABLES` (value: `"OUT_OF_SERVICE_CONSUMABLES"`)
+* `OUT_OF_SERVICE_INTERNAL` (value: `"OUT_OF_SERVICE_INTERNAL"`)
+* `OUT_OF_SERVICE_DCS` (value: `"OUT_OF_SERVICE_DCS"`)
+* `OUT_OF_SERVICE_BACKEND` (value: `"OUT_OF_SERVICE_BACKEND"`)
