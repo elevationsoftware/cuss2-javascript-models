@@ -2,7 +2,7 @@
 
 ## Enum
 
-* `OK` (value: `"RC_OK"`)
-* `ERROR` (value: `"RC_ERROR"`)
-* `OAUTH_ERROR` (value: `"RC_OAUTH_ERROR"`)
-* `PARAMETER` (value: `"RC_PARAMETER"`)
+* `OK` (value: `"ACK_OK"`)
+* `ERROR` (value: `"ACK_ERROR"`)
+* `OAUTH_ERROR` (value: `"ACK_OAUTH_ERROR"`)
+* `PARAMETER` (value: `"ACK_PARAMETER"`)

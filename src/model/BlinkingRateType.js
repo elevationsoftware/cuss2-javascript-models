@@ -25,7 +25,7 @@ export class BlinkingRateType {
    * The definition of the blinking rate. If a pair of 0,0 is specified (default) or only one value is 0 blinking is turned off.
    * @alias module:model/BlinkingRateType
    * @class
-   * @param durationOff {Number} Time in milliseconds the light  remains switched off.
+   * @param durationOff {Number} Time in milliseconds the light remains switched off.
    * @param durationOn {Number} Time in milliseconds the light is switched on.
    */
   constructor(durationOff, durationOn) {
@@ -53,7 +53,7 @@ export class BlinkingRateType {
 }
 
 /**
- * Time in milliseconds the light  remains switched off.
+ * Time in milliseconds the light remains switched off.
  * @member {Number} durationOff
  */
 BlinkingRateType.prototype.durationOff = undefined;

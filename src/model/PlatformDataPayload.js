@@ -47,8 +47,6 @@ export class PlatformDataPayload {
   static constructFromObject(data, obj) {
     if (data) {
       obj = obj || new PlatformDataPayload();
-      if (data.hasOwnProperty('statusCode'))
-        obj.statusCode = StatusCodes.constructFromObject(data['statusCode']);
       if (data.hasOwnProperty('applicationActivation'))
         obj.applicationActivation = ApplicationActivation.constructFromObject(data['applicationActivation']);
       if (data.hasOwnProperty('environmentLevel'))
@@ -67,11 +65,6 @@ export class PlatformDataPayload {
     return obj;
   }
 }
-
-/**
- * @member {module:model/StatusCodes} statusCode
- */
-PlatformDataPayload.prototype.statusCode = undefined;
 
 /**
  * @member {module:model/ApplicationActivation} applicationActivation

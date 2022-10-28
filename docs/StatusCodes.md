@@ -4,7 +4,8 @@
 
 * `OK` (value: `"OK"`)
 * `CANCELLED` (value: `"CANCELLED"`)
-* `WRONG_STATE` (value: `"WRONG_STATE"`)
+* `WRONG_SYSTEM_STATE` (value: `"WRONG_SYSTEM_STATE"`)
+* `WRONG_APPLICATION_STATE` (value: `"WRONG_APPLICATION_STATE"`)
 * `OUT_OF_SEQUENCE` (value: `"OUT_OF_SEQUENCE"`)
 * `TIMEOUT` (value: `"TIMEOUT"`)
 * `SESSION_TIMEOUT` (value: `"SESSION_TIMEOUT"`)

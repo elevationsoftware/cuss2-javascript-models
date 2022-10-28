@@ -33,10 +33,16 @@ const StatusCodes = {
   CANCELLED: "CANCELLED",
 
   /**
-   * value: "WRONG_STATE"
+   * value: "WRONG_SYSTEM_STATE"
    * @const
    */
-  WRONG_STATE: "WRONG_STATE",
+  WRONG_SYSTEM_STATE: "WRONG_SYSTEM_STATE",
+
+  /**
+   * value: "WRONG_APPLICATION_STATE"
+   * @const
+   */
+  WRONG_APPLICATION_STATE: "WRONG_APPLICATION_STATE",
 
   /**
    * value: "OUT_OF_SEQUENCE"

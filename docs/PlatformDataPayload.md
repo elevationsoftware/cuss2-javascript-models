@@ -3,7 +3,6 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**statusCode** | [**StatusCodes**](StatusCodes.md) |  | [optional] 
 **applicationActivation** | [**ApplicationActivation**](ApplicationActivation.md) |  | [optional] 
 **environmentLevel** | [**EnvironmentLevel**](EnvironmentLevel.md) |  | [optional] 
 **componentList** | [**ComponentList**](ComponentList.md) |  | [optional] 

@@ -21,28 +21,28 @@ import {ApiClient} from '../ApiClient.js';
  */
 const AckCodes = {
   /**
-   * value: "RC_OK"
+   * value: "ACK_OK"
    * @const
    */
-  OK: "RC_OK",
+  OK: "ACK_OK",
 
   /**
-   * value: "RC_ERROR"
+   * value: "ACK_ERROR"
    * @const
    */
-  ERROR: "RC_ERROR",
+  ERROR: "ACK_ERROR",
 
   /**
-   * value: "RC_OAUTH_ERROR"
+   * value: "ACK_OAUTH_ERROR"
    * @const
    */
-  OAUTH_ERROR: "RC_OAUTH_ERROR",
+  OAUTH_ERROR: "ACK_OAUTH_ERROR",
 
   /**
-   * value: "RC_PARAMETER"
+   * value: "ACK_PARAMETER"
    * @const
    */
-  PARAMETER: "RC_PARAMETER",
+  PARAMETER: "ACK_PARAMETER",
 
   /**
    * Returns a <code>AckCodes</code> enum value from a JavaScript object name.

@@ -22,7 +22,7 @@ import {ApiClient} from '../ApiClient.js';
 export class RequestID {
   /**
    * Constructs a new <code>RequestID</code>.
-   * The request identifier (GUID) for calls and solicited data objects.
+   * The (unique) request identifier (GUID) for calls and solicited data objects.
    * @alias module:model/RequestID
    * @class
    */

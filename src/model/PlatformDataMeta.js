@@ -33,20 +33,18 @@ export class PlatformDataMeta {
    * The META data of this message
    * @alias module:model/PlatformDataMeta
    * @class
-   * @param requestID {module:model/RequestID} 
    * @param timeStamp {Date} Time stamp in UTC format.
    * @param passengerSessionID {module:model/PassengerSessionID} 
    * @param applicationID {module:model/ApplicationID} 
-   * @param componentState {module:model/ComponentState} 
    * @param currentApplicationState {module:model/ApplicationState} 
+   * @param statusCode {module:model/StatusCodes} 
    */
-  constructor(requestID, timeStamp, passengerSessionID, applicationID, componentState, currentApplicationState) {
-    this.requestID = requestID;
+  constructor(timeStamp, passengerSessionID, applicationID, currentApplicationState, statusCode) {
     this.timeStamp = timeStamp;
     this.passengerSessionID = passengerSessionID;
     this.applicationID = applicationID;
-    this.componentState = componentState;
     this.currentApplicationState = currentApplicationState;
+    this.statusCode = statusCode;
   }
 
   /**
@@ -73,6 +71,8 @@ export class PlatformDataMeta {
         obj.componentState = ComponentState.constructFromObject(data['componentState']);
       if (data.hasOwnProperty('currentApplicationState'))
         obj.currentApplicationState = ApplicationState.constructFromObject(data['currentApplicationState']);
+      if (data.hasOwnProperty('statusCode'))
+        obj.statusCode = StatusCodes.constructFromObject(data['statusCode']);
       if (data.hasOwnProperty('eventClassification'))
         obj.eventClassification = PlatformDataMetaEventClassification.constructFromObject(data['eventClassification']);
       if (data.hasOwnProperty('platformDirective'))
@@ -117,6 +117,11 @@ PlatformDataMeta.prototype.componentState = undefined;
  * @member {module:model/ApplicationState} currentApplicationState
  */
 PlatformDataMeta.prototype.currentApplicationState = undefined;
+
+/**
+ * @member {module:model/StatusCodes} statusCode
+ */
+PlatformDataMeta.prototype.statusCode = undefined;
 
 /**
  * @member {module:model/PlatformDataMetaEventClassification} eventClassification
