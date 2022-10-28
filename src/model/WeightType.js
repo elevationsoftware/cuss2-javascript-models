@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AlibiType} from './AlibiType';
-import {ExtendedWeightType} from './ExtendedWeightType';
+import {ApiClient} from '../ApiClient.js';
+import {AlibiType} from './AlibiType.js';
+import {ExtendedWeightType} from './ExtendedWeightType.js';
 
 /**
  * The WeightType model module.

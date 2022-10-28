@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CardBrand} from './CardBrand';
+import {ApiClient} from '../ApiClient.js';
+import {CardBrand} from './CardBrand.js';
 
 /**
  * The CardBrandList model module.

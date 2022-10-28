@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {Location} from './Location';
+import {ApiClient} from '../ApiClient.js';
+import {Location} from './Location.js';
 
 /**
  * The EnvironmentLevel model module.

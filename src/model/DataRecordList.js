@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {DataRecord} from './DataRecord';
+import {ApiClient} from '../ApiClient.js';
+import {DataRecord} from './DataRecord.js';
 
 /**
  * The DataRecordList model module.

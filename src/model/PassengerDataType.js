@@ -12,11 +12,11 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {PassengerDataTypeAssociationDataList} from './PassengerDataTypeAssociationDataList';
-import {PassengerDataTypePassengerBiometricsData} from './PassengerDataTypePassengerBiometricsData';
-import {PassengerDataTypePassengerMRZData} from './PassengerDataTypePassengerMRZData';
-import {PassengerIDType} from './PassengerIDType';
+import {ApiClient} from '../ApiClient.js';
+import {PassengerDataTypeAssociationDataList} from './PassengerDataTypeAssociationDataList.js';
+import {PassengerDataTypePassengerBiometricsData} from './PassengerDataTypePassengerBiometricsData.js';
+import {PassengerDataTypePassengerMRZData} from './PassengerDataTypePassengerMRZData.js';
+import {PassengerIDType} from './PassengerIDType.js';
 
 /**
  * The PassengerDataType model module.

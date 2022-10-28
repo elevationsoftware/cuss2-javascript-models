@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ApprovalCode} from './ApprovalCode';
-import {AuthorizationAmounts} from './AuthorizationAmounts';
-import {GPParameterList} from './GPParameterList';
-import {MediaType} from './MediaType';
-import {ReceiptData} from './ReceiptData';
-import {TransactionReference} from './TransactionReference';
+import {ApiClient} from '../ApiClient.js';
+import {ApprovalCode} from './ApprovalCode.js';
+import {AuthorizationAmounts} from './AuthorizationAmounts.js';
+import {GPParameterList} from './GPParameterList.js';
+import {MediaType} from './MediaType.js';
+import {ReceiptData} from './ReceiptData.js';
+import {TransactionReference} from './TransactionReference.js';
 
 /**
  * The EPaymentMessageTransactionTransactionResponseApproval model module.

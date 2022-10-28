@@ -12,15 +12,15 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ApplicationState} from './ApplicationState';
-import {ApplicationTransfer} from './ApplicationTransfer';
-import {BaggageData} from './BaggageData';
-import {CommonUseBiometricMessage} from './CommonUseBiometricMessage';
-import {CommonUsePaymentMessage} from './CommonUsePaymentMessage';
-import {DataRecordList} from './DataRecordList';
-import {IlluminationData} from './IlluminationData';
-import {ScreenResolution} from './ScreenResolution';
+import {ApiClient} from '../ApiClient.js';
+import {ApplicationState} from './ApplicationState.js';
+import {ApplicationTransfer} from './ApplicationTransfer.js';
+import {BaggageData} from './BaggageData.js';
+import {CommonUseBiometricMessage} from './CommonUseBiometricMessage.js';
+import {CommonUsePaymentMessage} from './CommonUsePaymentMessage.js';
+import {DataRecordList} from './DataRecordList.js';
+import {IlluminationData} from './IlluminationData.js';
+import {ScreenResolution} from './ScreenResolution.js';
 
 /**
  * The ApplicationDataPayload model module.

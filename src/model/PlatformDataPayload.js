@@ -12,15 +12,15 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ApplicationActivation} from './ApplicationActivation';
-import {BaggageData} from './BaggageData';
-import {CommonUseBiometricMessage} from './CommonUseBiometricMessage';
-import {CommonUsePaymentMessage} from './CommonUsePaymentMessage';
-import {ComponentList} from './ComponentList';
-import {DataRecordList} from './DataRecordList';
-import {EnvironmentLevel} from './EnvironmentLevel';
-import {StatusCodes} from './StatusCodes';
+import {ApiClient} from '../ApiClient.js';
+import {ApplicationActivation} from './ApplicationActivation.js';
+import {BaggageData} from './BaggageData.js';
+import {CommonUseBiometricMessage} from './CommonUseBiometricMessage.js';
+import {CommonUsePaymentMessage} from './CommonUsePaymentMessage.js';
+import {ComponentList} from './ComponentList.js';
+import {DataRecordList} from './DataRecordList.js';
+import {EnvironmentLevel} from './EnvironmentLevel.js';
+import {StatusCodes} from './StatusCodes.js';
 
 /**
  * The PlatformDataPayload model module.

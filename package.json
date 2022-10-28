@@ -1,7 +1,7 @@
 {
   "name": "cuss2-javascript-models",
   "version": "1.0.0",
-  "description": "",
+  "description": "A javascript library for CUSS2 models",
   "license": "MIT",
   "main": "src/index.js",
   "type": "module",

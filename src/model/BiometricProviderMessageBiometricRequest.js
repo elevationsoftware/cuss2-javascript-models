@@ -12,11 +12,11 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BiometricProviderMessageBiometricRequestAgreementsList} from './BiometricProviderMessageBiometricRequestAgreementsList';
-import {BiometricProviderMessageBiometricRequestEnvironment} from './BiometricProviderMessageBiometricRequestEnvironment';
-import {GPDataListType} from './GPDataListType';
-import {PassengerDataType} from './PassengerDataType';
+import {ApiClient} from '../ApiClient.js';
+import {BiometricProviderMessageBiometricRequestAgreementsList} from './BiometricProviderMessageBiometricRequestAgreementsList.js';
+import {BiometricProviderMessageBiometricRequestEnvironment} from './BiometricProviderMessageBiometricRequestEnvironment.js';
+import {GPDataListType} from './GPDataListType.js';
+import {PassengerDataType} from './PassengerDataType.js';
 
 /**
  * The BiometricProviderMessageBiometricRequest model module.

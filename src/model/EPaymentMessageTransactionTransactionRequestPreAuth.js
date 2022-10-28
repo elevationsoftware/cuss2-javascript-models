@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AmountType} from './AmountType';
-import {ApprovalCode} from './ApprovalCode';
-import {TransactionReference} from './TransactionReference';
+import {ApiClient} from '../ApiClient.js';
+import {AmountType} from './AmountType.js';
+import {ApprovalCode} from './ApprovalCode.js';
+import {TransactionReference} from './TransactionReference.js';
 
 /**
  * The EPaymentMessageTransactionTransactionRequestPreAuth model module.

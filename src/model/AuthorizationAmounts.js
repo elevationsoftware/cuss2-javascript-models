@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AmountType} from './AmountType';
+import {ApiClient} from '../ApiClient.js';
+import {AmountType} from './AmountType.js';
 
 /**
  * The AuthorizationAmounts model module.

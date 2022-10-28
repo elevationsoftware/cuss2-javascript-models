@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {DimensionType} from './DimensionType';
-import {WeightType} from './WeightType';
+import {ApiClient} from '../ApiClient.js';
+import {DimensionType} from './DimensionType.js';
+import {WeightType} from './WeightType.js';
 
 /**
  * The BaggageDataBaggageMeasurements model module.

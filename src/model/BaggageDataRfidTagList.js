@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {RFIDTagDataType} from './RFIDTagDataType';
+import {ApiClient} from '../ApiClient.js';
+import {RFIDTagDataType} from './RFIDTagDataType.js';
 
 /**
  * The BaggageDataRfidTagList model module.

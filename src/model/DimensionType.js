@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AlibiType} from './AlibiType';
+import {ApiClient} from '../ApiClient.js';
+import {AlibiType} from './AlibiType.js';
 
 /**
  * The DimensionType model module.

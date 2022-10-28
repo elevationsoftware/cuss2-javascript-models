@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CommonUsePaymentMessageCharacteristicsCharacteristicsResponseEPayment} from './CommonUsePaymentMessageCharacteristicsCharacteristicsResponseEPayment';
-import {DsTypesEpayment} from './DsTypesEpayment';
+import {ApiClient} from '../ApiClient.js';
+import {CommonUsePaymentMessageCharacteristicsCharacteristicsResponseEPayment} from './CommonUsePaymentMessageCharacteristicsCharacteristicsResponseEPayment.js';
+import {DsTypesEpayment} from './DsTypesEpayment.js';
 
 /**
  * The CommonUsePaymentMessageCharacteristicsCharacteristicsResponse model module.

@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {EPaymentMessageTransactionTransactionRequestAccountManual} from './EPaymentMessageTransactionTransactionRequestAccountManual';
-import {EPaymentMessageTransactionTransactionRequestAccountSwipe} from './EPaymentMessageTransactionTransactionRequestAccountSwipe';
+import {ApiClient} from '../ApiClient.js';
+import {EPaymentMessageTransactionTransactionRequestAccountManual} from './EPaymentMessageTransactionTransactionRequestAccountManual.js';
+import {EPaymentMessageTransactionTransactionRequestAccountSwipe} from './EPaymentMessageTransactionTransactionRequestAccountSwipe.js';
 
 /**
  * The EPaymentMessageTransactionTransactionRequestAccount model module.

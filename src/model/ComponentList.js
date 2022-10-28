@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {EnvironmentComponent} from './EnvironmentComponent';
+import {ApiClient} from '../ApiClient.js';
+import {EnvironmentComponent} from './EnvironmentComponent.js';
 
 /**
  * The ComponentList model module.

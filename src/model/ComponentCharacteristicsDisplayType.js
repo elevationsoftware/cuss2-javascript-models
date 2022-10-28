@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ScreenResolution} from './ScreenResolution';
+import {ApiClient} from '../ApiClient.js';
+import {ScreenResolution} from './ScreenResolution.js';
 
 /**
  * The ComponentCharacteristicsDisplayType model module.

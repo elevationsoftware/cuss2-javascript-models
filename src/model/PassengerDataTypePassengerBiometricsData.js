@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {PassengerBiometricsType} from './PassengerBiometricsType';
+import {ApiClient} from '../ApiClient.js';
+import {PassengerBiometricsType} from './PassengerBiometricsType.js';
 
 /**
  * The PassengerDataTypePassengerBiometricsData model module.

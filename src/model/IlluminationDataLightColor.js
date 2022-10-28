@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {RgbType} from './RgbType';
+import {ApiClient} from '../ApiClient.js';
+import {RgbType} from './RgbType.js';
 
 /**
  * The IlluminationDataLightColor model module.

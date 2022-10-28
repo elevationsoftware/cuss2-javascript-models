@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from "../ApiClient";
-import {APIAcknowledgement} from '../model/APIAcknowledgement';
-import {ApplicationData} from '../model/ApplicationData';
-import {PlatformData} from '../model/PlatformData';
+import {ApiClient} from "../ApiClient.js";
+import {APIAcknowledgement} from '../model/APIAcknowledgement.js';
+import {ApplicationData} from '../model/ApplicationData.js';
+import {PlatformData} from '../model/PlatformData.js';
 
 /**
 * CodeStubsGeneration service.

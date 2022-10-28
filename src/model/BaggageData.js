@@ -12,11 +12,11 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BaggageDataBaggageMeasurements} from './BaggageDataBaggageMeasurements';
-import {BaggageDataBarcodeTagList} from './BaggageDataBarcodeTagList';
-import {BaggageDataRfidTagList} from './BaggageDataRfidTagList';
-import {StatusCodes} from './StatusCodes';
+import {ApiClient} from '../ApiClient.js';
+import {BaggageDataBaggageMeasurements} from './BaggageDataBaggageMeasurements.js';
+import {BaggageDataBarcodeTagList} from './BaggageDataBarcodeTagList.js';
+import {BaggageDataRfidTagList} from './BaggageDataRfidTagList.js';
+import {StatusCodes} from './StatusCodes.js';
 
 /**
  * The BaggageData model module.

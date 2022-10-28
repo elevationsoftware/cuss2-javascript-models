@@ -12,11 +12,11 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {EPaymentMessageTransactionTransactionAcknowledge} from './EPaymentMessageTransactionTransactionAcknowledge';
-import {EPaymentMessageTransactionTransactionRequest} from './EPaymentMessageTransactionTransactionRequest';
-import {EPaymentMessageTransactionTransactionResponse} from './EPaymentMessageTransactionTransactionResponse';
-import {TransactionDocumentType} from './TransactionDocumentType';
+import {ApiClient} from '../ApiClient.js';
+import {EPaymentMessageTransactionTransactionAcknowledge} from './EPaymentMessageTransactionTransactionAcknowledge.js';
+import {EPaymentMessageTransactionTransactionRequest} from './EPaymentMessageTransactionTransactionRequest.js';
+import {EPaymentMessageTransactionTransactionResponse} from './EPaymentMessageTransactionTransactionResponse.js';
+import {TransactionDocumentType} from './TransactionDocumentType.js';
 
 /**
  * The EPaymentMessageTransaction model module.

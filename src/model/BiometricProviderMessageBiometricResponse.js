@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BiometricProviderMessageBiometricResponseFailureReason} from './BiometricProviderMessageBiometricResponseFailureReason';
-import {GPDataListType} from './GPDataListType';
-import {PassengerDataType} from './PassengerDataType';
+import {ApiClient} from '../ApiClient.js';
+import {BiometricProviderMessageBiometricResponseFailureReason} from './BiometricProviderMessageBiometricResponseFailureReason.js';
+import {GPDataListType} from './GPDataListType.js';
+import {PassengerDataType} from './PassengerDataType.js';
 
 /**
  * The BiometricProviderMessageBiometricResponse model module.

@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {NavigationTypes} from './NavigationTypes';
+import {ApiClient} from '../ApiClient.js';
+import {NavigationTypes} from './NavigationTypes.js';
 
 /**
  * The ComponentCharacteristicsNavigationType model module.

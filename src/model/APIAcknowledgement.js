@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AckCodes} from './AckCodes';
-import {RequestID} from './RequestID';
+import {ApiClient} from '../ApiClient.js';
+import {AckCodes} from './AckCodes.js';
+import {RequestID} from './RequestID.js';
 
 /**
  * The APIAcknowledgement model module.

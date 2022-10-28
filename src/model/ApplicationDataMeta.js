@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ComponentID} from './ComponentID';
-import {PlatformDirectives} from './PlatformDirectives';
-import {RequestID} from './RequestID';
+import {ApiClient} from '../ApiClient.js';
+import {ComponentID} from './ComponentID.js';
+import {PlatformDirectives} from './PlatformDirectives.js';
+import {RequestID} from './RequestID.js';
 
 /**
  * The ApplicationDataMeta model module.

@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BlinkingRateType} from './BlinkingRateType';
-import {IlluminationDataLightColor} from './IlluminationDataLightColor';
+import {ApiClient} from '../ApiClient.js';
+import {BlinkingRateType} from './BlinkingRateType.js';
+import {IlluminationDataLightColor} from './IlluminationDataLightColor.js';
 
 /**
  * The IlluminationData model module.

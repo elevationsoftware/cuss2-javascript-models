@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {MRZTrackType} from './MRZTrackType';
+import {ApiClient} from '../ApiClient.js';
+import {MRZTrackType} from './MRZTrackType.js';
 
 /**
  * The PassengerDataTypePassengerMRZData model module.

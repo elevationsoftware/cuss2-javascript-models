@@ -12,11 +12,11 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CardBrandList} from './CardBrandList';
-import {CurrencyCodeList} from './CurrencyCodeList';
-import {FeatureList} from './FeatureList';
-import {MediaTypeList} from './MediaTypeList';
+import {ApiClient} from '../ApiClient.js';
+import {CardBrandList} from './CardBrandList.js';
+import {CurrencyCodeList} from './CurrencyCodeList.js';
+import {FeatureList} from './FeatureList.js';
+import {MediaTypeList} from './MediaTypeList.js';
 
 /**
  * The CommonUsePaymentMessageCharacteristicsCharacteristicsResponseEPayment model module.

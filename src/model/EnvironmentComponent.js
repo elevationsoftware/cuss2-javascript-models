@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ComponentCharacteristics} from './ComponentCharacteristics';
-import {ComponentID} from './ComponentID';
-import {ComponentTypes} from './ComponentTypes';
+import {ApiClient} from '../ApiClient.js';
+import {ComponentCharacteristics} from './ComponentCharacteristics.js';
+import {ComponentID} from './ComponentID.js';
+import {ComponentTypes} from './ComponentTypes.js';
 
 /**
  * The EnvironmentComponent model module.

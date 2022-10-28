@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {GPParameter} from './GPParameter';
+import {ApiClient} from '../ApiClient.js';
+import {GPParameter} from './GPParameter.js';
 
 /**
  * The GPParameterList model module.

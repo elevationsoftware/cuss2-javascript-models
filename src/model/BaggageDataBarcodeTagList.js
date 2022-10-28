@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BarcodeTagDataType} from './BarcodeTagDataType';
+import {ApiClient} from '../ApiClient.js';
+import {BarcodeTagDataType} from './BarcodeTagDataType.js';
 
 /**
  * The BaggageDataBarcodeTagList model module.

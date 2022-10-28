@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AuthorizationAmounts} from './AuthorizationAmounts';
-import {EPaymentMessageTransactionTransactionRequestAccount} from './EPaymentMessageTransactionTransactionRequestAccount';
-import {EPaymentMessageTransactionTransactionRequestEnvironment} from './EPaymentMessageTransactionTransactionRequestEnvironment';
-import {EPaymentMessageTransactionTransactionRequestItinerary} from './EPaymentMessageTransactionTransactionRequestItinerary';
-import {EPaymentMessageTransactionTransactionRequestPreAuth} from './EPaymentMessageTransactionTransactionRequestPreAuth';
-import {GPParameterList} from './GPParameterList';
+import {ApiClient} from '../ApiClient.js';
+import {AuthorizationAmounts} from './AuthorizationAmounts.js';
+import {EPaymentMessageTransactionTransactionRequestAccount} from './EPaymentMessageTransactionTransactionRequestAccount.js';
+import {EPaymentMessageTransactionTransactionRequestEnvironment} from './EPaymentMessageTransactionTransactionRequestEnvironment.js';
+import {EPaymentMessageTransactionTransactionRequestItinerary} from './EPaymentMessageTransactionTransactionRequestItinerary.js';
+import {EPaymentMessageTransactionTransactionRequestPreAuth} from './EPaymentMessageTransactionTransactionRequestPreAuth.js';
+import {GPParameterList} from './GPParameterList.js';
 
 /**
  * The EPaymentMessageTransactionTransactionRequest model module.

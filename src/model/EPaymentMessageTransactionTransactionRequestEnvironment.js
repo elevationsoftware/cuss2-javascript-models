@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {MerchantID} from './MerchantID';
+import {ApiClient} from '../ApiClient.js';
+import {MerchantID} from './MerchantID.js';
 
 /**
  * The EPaymentMessageTransactionTransactionRequestEnvironment model module.

@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CardBrandList} from './CardBrandList';
-import {CurrencyCodeList} from './CurrencyCodeList';
-import {DsTypesEpayment} from './DsTypesEpayment';
-import {FeatureList} from './FeatureList';
-import {MediaTypeList} from './MediaTypeList';
-import {MerchantID} from './MerchantID';
+import {ApiClient} from '../ApiClient.js';
+import {CardBrandList} from './CardBrandList.js';
+import {CurrencyCodeList} from './CurrencyCodeList.js';
+import {DsTypesEpayment} from './DsTypesEpayment.js';
+import {FeatureList} from './FeatureList.js';
+import {MediaTypeList} from './MediaTypeList.js';
+import {MerchantID} from './MerchantID.js';
 
 /**
  * The EPaymentMessageSetup model module.

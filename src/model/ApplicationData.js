@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ApplicationDataMeta} from './ApplicationDataMeta';
-import {ApplicationDataPayload} from './ApplicationDataPayload';
+import {ApiClient} from '../ApiClient.js';
+import {ApplicationDataMeta} from './ApplicationDataMeta.js';
+import {ApplicationDataPayload} from './ApplicationDataPayload.js';
 
 /**
  * The ApplicationData model module.

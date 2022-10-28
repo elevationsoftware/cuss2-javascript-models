@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {DeviceHelpInstructionType} from './DeviceHelpInstructionType';
+import {ApiClient} from '../ApiClient.js';
+import {DeviceHelpInstructionType} from './DeviceHelpInstructionType.js';
 
 /**
  * The ComponentCharacteristicsDeviceHelpInstruction model module.

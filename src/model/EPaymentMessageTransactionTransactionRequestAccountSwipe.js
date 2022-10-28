@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CardTrackType} from './CardTrackType';
+import {ApiClient} from '../ApiClient.js';
+import {CardTrackType} from './CardTrackType.js';
 
 /**
  * The EPaymentMessageTransactionTransactionRequestAccountSwipe model module.

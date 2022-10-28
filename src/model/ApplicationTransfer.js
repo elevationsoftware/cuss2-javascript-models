@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ApplicationID} from './ApplicationID';
+import {ApiClient} from '../ApiClient.js';
+import {ApplicationID} from './ApplicationID.js';
 
 /**
  * The ApplicationTransfer model module.

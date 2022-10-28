@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BiometricProviderMessage} from './BiometricProviderMessage';
-import {CommonUseBiometricMessageCharacteristics} from './CommonUseBiometricMessageCharacteristics';
+import {ApiClient} from '../ApiClient.js';
+import {BiometricProviderMessage} from './BiometricProviderMessage.js';
+import {CommonUseBiometricMessageCharacteristics} from './CommonUseBiometricMessageCharacteristics.js';
 
 /**
  * The CommonUseBiometricMessage model module.

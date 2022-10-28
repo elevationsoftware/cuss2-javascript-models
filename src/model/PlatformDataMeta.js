@@ -12,15 +12,15 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ApplicationID} from './ApplicationID';
-import {ApplicationState} from './ApplicationState';
-import {ComponentID} from './ComponentID';
-import {ComponentState} from './ComponentState';
-import {PassengerSessionID} from './PassengerSessionID';
-import {PlatformDataMetaEventClassification} from './PlatformDataMetaEventClassification';
-import {PlatformDirectives} from './PlatformDirectives';
-import {RequestID} from './RequestID';
+import {ApiClient} from '../ApiClient.js';
+import {ApplicationID} from './ApplicationID.js';
+import {ApplicationState} from './ApplicationState.js';
+import {ComponentID} from './ComponentID.js';
+import {ComponentState} from './ComponentState.js';
+import {PassengerSessionID} from './PassengerSessionID.js';
+import {PlatformDataMetaEventClassification} from './PlatformDataMetaEventClassification.js';
+import {PlatformDirectives} from './PlatformDirectives.js';
+import {RequestID} from './RequestID.js';
 
 /**
  * The PlatformDataMeta model module.

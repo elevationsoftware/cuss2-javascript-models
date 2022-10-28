@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BiometricAnyType} from './BiometricAnyType';
-import {CharacteristicsDocumentType} from './CharacteristicsDocumentType';
-import {CommonUseBiometricMessageCharacteristicsCharacteristicsResponse} from './CommonUseBiometricMessageCharacteristicsCharacteristicsResponse';
+import {ApiClient} from '../ApiClient.js';
+import {BiometricAnyType} from './BiometricAnyType.js';
+import {CharacteristicsDocumentType} from './CharacteristicsDocumentType.js';
+import {CommonUseBiometricMessageCharacteristicsCharacteristicsResponse} from './CommonUseBiometricMessageCharacteristicsCharacteristicsResponse.js';
 
 /**
  * The CommonUseBiometricMessageCharacteristics model module.

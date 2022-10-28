@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ReceiptData} from './ReceiptData';
+import {ApiClient} from '../ApiClient.js';
+import {ReceiptData} from './ReceiptData.js';
 
 /**
  * The EPaymentMessageTransactionTransactionResponseNonApproval model module.

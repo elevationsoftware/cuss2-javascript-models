@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AssociationDataItemType} from './AssociationDataItemType';
+import {ApiClient} from '../ApiClient.js';
+import {AssociationDataItemType} from './AssociationDataItemType.js';
 
 /**
  * The PassengerDataTypeAssociationDataList model module.

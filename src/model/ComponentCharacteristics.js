@@ -12,15 +12,15 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CUSSDataTypes} from './CUSSDataTypes';
-import {ComponentCharacteristicsConveyorSBD} from './ComponentCharacteristicsConveyorSBD';
-import {ComponentCharacteristicsDeviceHelpInstruction} from './ComponentCharacteristicsDeviceHelpInstruction';
-import {ComponentCharacteristicsDisplayType} from './ComponentCharacteristicsDisplayType';
-import {ComponentCharacteristicsDocumentBin} from './ComponentCharacteristicsDocumentBin';
-import {ComponentCharacteristicsNavigationType} from './ComponentCharacteristicsNavigationType';
-import {DeviceTypes} from './DeviceTypes';
-import {MediaTypes} from './MediaTypes';
+import {ApiClient} from '../ApiClient.js';
+import {CUSSDataTypes} from './CUSSDataTypes.js';
+import {ComponentCharacteristicsConveyorSBD} from './ComponentCharacteristicsConveyorSBD.js';
+import {ComponentCharacteristicsDeviceHelpInstruction} from './ComponentCharacteristicsDeviceHelpInstruction.js';
+import {ComponentCharacteristicsDisplayType} from './ComponentCharacteristicsDisplayType.js';
+import {ComponentCharacteristicsDocumentBin} from './ComponentCharacteristicsDocumentBin.js';
+import {ComponentCharacteristicsNavigationType} from './ComponentCharacteristicsNavigationType.js';
+import {DeviceTypes} from './DeviceTypes.js';
+import {MediaTypes} from './MediaTypes.js';
 
 /**
  * The ComponentCharacteristics model module.

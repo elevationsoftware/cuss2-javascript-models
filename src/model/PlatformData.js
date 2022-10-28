@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {PlatformDataMeta} from './PlatformDataMeta';
-import {PlatformDataPayload} from './PlatformDataPayload';
+import {ApiClient} from '../ApiClient.js';
+import {PlatformDataMeta} from './PlatformDataMeta.js';
+import {PlatformDataPayload} from './PlatformDataPayload.js';
 
 /**
  * The PlatformData model module.

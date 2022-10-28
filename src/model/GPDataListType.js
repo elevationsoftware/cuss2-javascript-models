@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {GPDataItemType} from './GPDataItemType';
+import {ApiClient} from '../ApiClient.js';
+import {GPDataItemType} from './GPDataItemType.js';
 
 /**
  * The GPDataListType model module.

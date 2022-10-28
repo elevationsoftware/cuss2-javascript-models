@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {RFIDElement} from './RFIDElement';
+import {ApiClient} from '../ApiClient.js';
+import {RFIDElement} from './RFIDElement.js';
 
 /**
  * The RFIDTagDataType model module.

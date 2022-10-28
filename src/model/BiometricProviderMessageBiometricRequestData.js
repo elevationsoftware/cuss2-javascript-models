@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {BiometricProviderMessageBiometricRequestDataProcessing} from './BiometricProviderMessageBiometricRequestDataProcessing';
-import {PassengerDataType} from './PassengerDataType';
+import {ApiClient} from '../ApiClient.js';
+import {BiometricProviderMessageBiometricRequestDataProcessing} from './BiometricProviderMessageBiometricRequestDataProcessing.js';
+import {PassengerDataType} from './PassengerDataType.js';
 
 /**
  * The BiometricProviderMessageBiometricRequestData model module.

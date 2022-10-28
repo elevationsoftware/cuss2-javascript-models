@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {AgreementTextType} from './AgreementTextType';
+import {ApiClient} from '../ApiClient.js';
+import {AgreementTextType} from './AgreementTextType.js';
 
 /**
  * The BiometricProviderMessageBiometricRequestAgreementsList model module.

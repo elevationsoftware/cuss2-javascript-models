@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {EPaymentMessageOperation} from './EPaymentMessageOperation';
-import {EPaymentMessageSetup} from './EPaymentMessageSetup';
-import {EPaymentMessageTransaction} from './EPaymentMessageTransaction';
+import {ApiClient} from '../ApiClient.js';
+import {EPaymentMessageOperation} from './EPaymentMessageOperation.js';
+import {EPaymentMessageSetup} from './EPaymentMessageSetup.js';
+import {EPaymentMessageTransaction} from './EPaymentMessageTransaction.js';
 
 /**
  * The EPaymentMessage model module.

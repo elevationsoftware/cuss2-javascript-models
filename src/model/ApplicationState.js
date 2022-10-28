@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ApplicationStateChangeReasonCodes} from './ApplicationStateChangeReasonCodes';
-import {ApplicationStateCodes} from './ApplicationStateCodes';
+import {ApiClient} from '../ApiClient.js';
+import {ApplicationStateChangeReasonCodes} from './ApplicationStateChangeReasonCodes.js';
+import {ApplicationStateCodes} from './ApplicationStateCodes.js';
 
 /**
  * The ApplicationState model module.

@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {Feature} from './Feature';
+import {ApiClient} from '../ApiClient.js';
+import {Feature} from './Feature.js';
 
 /**
  * The FeatureList model module.

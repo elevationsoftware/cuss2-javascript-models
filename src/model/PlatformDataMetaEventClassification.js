@@ -12,10 +12,10 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {EventCategories} from './EventCategories';
-import {EventModes} from './EventModes';
-import {EventTypes} from './EventTypes';
+import {ApiClient} from '../ApiClient.js';
+import {EventCategories} from './EventCategories.js';
+import {EventModes} from './EventModes.js';
+import {EventTypes} from './EventTypes.js';
 
 /**
  * The PlatformDataMetaEventClassification model module.

@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CUSSDataTypes} from './CUSSDataTypes';
-import {DataStatus} from './DataStatus';
+import {ApiClient} from '../ApiClient.js';
+import {CUSSDataTypes} from './CUSSDataTypes.js';
+import {DataStatus} from './DataStatus.js';
 
 /**
  * The DataRecord model module.

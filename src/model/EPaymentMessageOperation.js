@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {OperationDocumentType} from './OperationDocumentType';
+import {ApiClient} from '../ApiClient.js';
+import {OperationDocumentType} from './OperationDocumentType.js';
 
 /**
  * The EPaymentMessageOperation model module.

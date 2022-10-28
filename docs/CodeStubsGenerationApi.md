@@ -17,7 +17,7 @@ A dummy end-point definition to motivate Open API code generators to generate al
 
 ### Example
 ```javascript
-import {CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion} from 'common_use_self_service_v2_api_definition__current_working_version';
+import {CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion} from 'common_use_self_service_v2_api_definition__current_working_version.js';
 let defaultClient = CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -60,7 +60,7 @@ A dummy end-point definition to motivate Open API code generators to generate al
 
 ### Example
 ```javascript
-import {CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion} from 'common_use_self_service_v2_api_definition__current_working_version';
+import {CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion} from 'common_use_self_service_v2_api_definition__current_working_version.js';
 let defaultClient = CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application

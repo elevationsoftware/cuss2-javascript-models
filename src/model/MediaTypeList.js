@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {MediaType} from './MediaType';
+import {ApiClient} from '../ApiClient.js';
+import {MediaType} from './MediaType.js';
 
 /**
  * The MediaTypeList model module.

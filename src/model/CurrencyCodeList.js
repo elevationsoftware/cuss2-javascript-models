@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {CurrencyCode} from './CurrencyCode';
+import {ApiClient} from '../ApiClient.js';
+import {CurrencyCode} from './CurrencyCode.js';
 
 /**
  * The CurrencyCodeList model module.
