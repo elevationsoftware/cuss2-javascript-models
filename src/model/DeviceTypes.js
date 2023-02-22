@@ -129,6 +129,14 @@ const DeviceTypes = {
   DISPLAY: "DISPLAY",
 
   /**
+   * 
+   * value "CAMERA" 
+   * @const
+   */
+  CAMERA: "CAMERA",
+
+
+  /**
    * Returns a <code>DeviceTypes</code> enum value from a JavaScript object name.
    * @param {Object} data The plain JavaScript object containing the name of the enum value.
   * @return {module:model/DeviceTypes} The enum <code>DeviceTypes</code> value.
