@@ -1,6 +1,6 @@
 {
   "name": "@elevated-libs/cuss2-javascript-models",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A javascript library for CUSS2 models",
   "license": "MIT",
   "main": "src/index.js",
@@ -9,5 +9,6 @@
     "fs": false
   },
   "dependencies": {
+    "typescript": "^5.4.5"
   }
 }

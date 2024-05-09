@@ -1,0 +1,96 @@
+
+declare module "model/CUSSDataTypes" {
+    /**
+     * *
+     */
+    export type CUSSDataTypes = string;
+    export namespace CUSSDataTypes {
+        let UNDEFINED: string;
+        let PAYMENT_ISO: string;
+        let pAYMENTJIS2: string;
+        let FOID_ISO: string;
+        let fOIDJIS2: string;
+        let DISCRETIONARY_ISO: string;
+        let dISCRETIONARYJIS2: string;
+        let ISO: string;
+        let VING: string;
+        let TESSA: string;
+        let SAFLOK: string;
+        let TIMELOX: string;
+        let KABA_ILCO: string;
+        let KABA_ILCO_FOLIO: string;
+        let IMAGE_IR: string;
+        let IMAGE_VIS: string;
+        let IMAGE_UV: string;
+        let IMAGE_PHOTO: string;
+        let IMAGE_COAX: string;
+        let IMAGE_RED: string;
+        let IMAGE_GREEN: string;
+        let IMAGE_BLUE: string;
+        let IMAGE_GS: string;
+        let IMAGE_BW: string;
+        let IMAGE_BMP: string;
+        let IMAGE_GIF: string;
+        let IMAGE_TIF: string;
+        let IMAGE_PNG: string;
+        let IMAGE_JPG: string;
+        let IMAGE_XBM: string;
+        let IMAGE_XPM: string;
+        let IMAGE_PPM: string;
+        let VIDEO_AVI: string;
+        let vIDEOMP4: string;
+        let VIDEO_MOV: string;
+        let VIDEO_MKV: string;
+        let VIDEO_WMV: string;
+        let CODELINE: string;
+        let BARCODE: string;
+        let MIWA: string;
+        let sCANPDF417: string;
+        let SCAN_AZTEC: string;
+        let SCAN_DMATRIX: string;
+        let SCAN_QR: string;
+        let sCANCODE39: string;
+        let sCANCODE128: string;
+        let sCANCODE2OF5: string;
+        let iSO7816: string;
+        let pRINT2SPAGE: string;
+        let pRINT2SMULTI: string;
+        let PRINT_PDF: string;
+        let MIFARE: string;
+        let SUICA: string;
+        let iSO15961: string;
+        let rP1745: string;
+        let WEIGHT: string;
+        let DIMENSION: string;
+        let ePASSPORTDG1: string;
+        let ePASSPORTDG2: string;
+        let ePASSPORTDG3: string;
+        let ePASSPORTDG4: string;
+        let ePASSPORTDG5: string;
+        let ePASSPORTDG6: string;
+        let ePASSPORTDG7: string;
+        let ePASSPORTDG8: string;
+        let ePASSPORTDG9: string;
+        let ePASSPORTDG10: string;
+        let ePASSPORTDG11: string;
+        let ePASSPORTDG12: string;
+        let ePASSPORTDG13: string;
+        let ePASSPORTDG14: string;
+        let ePASSPORTDG15: string;
+        let ePASSPORTDG16: string;
+        let ePASSPORTDG17: string;
+        let ePASSPORTDG18: string;
+        let ePASSPORTDG19: string;
+        let ePASSPORTDG20: string;
+        let EPAYMENT: string;
+        let ILLUMINATION: string;
+        let SSML: string;
+        let KEY: string;
+        let KEY_UP: string;
+        let KEY_DOWN: string;
+        let BIOMETRIC: string;
+        let PRINT_SVG: string;
+        let ITPS: string;
+        function constructFromObject(object: any): any;
+    }
+}

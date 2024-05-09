@@ -1,0 +1,90 @@
+
+declare module "model/MessageCodes" {
+    /**
+     * *
+     */
+    export type MessageCodes = string;
+    export namespace MessageCodes {
+        let OK: string;
+        let CANCELLED: string;
+        let WRONG_SYSTEM_STATE: string;
+        let WRONG_APPLICATION_STATE: string;
+        let OUT_OF_SEQUENCE: string;
+        let TIMEOUT: string;
+        let SESSION_TIMEOUT: string;
+        let KILL_TIMEOUT: string;
+        let SOFTWARE_ERROR: string;
+        let CRITICAL_SOFTWARE_ERROR: string;
+        let CONFIGURATION_ERROR: string;
+        let FORMAT_ERROR: string;
+        let LENGTH_ERROR: string;
+        let DATA_MISSING: string;
+        let DATA_PRESENT: string;
+        let CONSUMABLES: string;
+        let THRESHOLD_ERROR: string;
+        let THRESHOLD_USAGE: string;
+        let HARDWARE_ERROR: string;
+        let NOT_REACHABLE: string;
+        let NOT_RESPONDING: string;
+        let MEDIA_JAMMED: string;
+        let MEDIA_MISPLACED: string;
+        let MEDIA_PRESENT: string;
+        let MEDIA_ABSENT: string;
+        let MEDIA_HIGH: string;
+        let MEDIA_FULL: string;
+        let MEDIA_LOW: string;
+        let MEDIA_EMPTY: string;
+        let MEDIA_DAMAGED: string;
+        let MEDIA_INCOMPLETELY_INSERTED: string;
+        let BAGGAGE_FULL: string;
+        let BAGGAGE_UNDETECTED: string;
+        let BAGGAGE_PRESENT: string;
+        let BAGGAGE_ABSENT: string;
+        let BAGGAGE_OVERSIZED: string;
+        let BAGGAGE_TOO_MANY_BAGS: string;
+        let BAGGAGE_UNEXPECTED_BAG: string;
+        let BAGGAGE_TOO_HIGH: string;
+        let BAGGAGE_TOO_LONG: string;
+        let BAGGAGE_TOO_FLAT: string;
+        let BAGGAGE_TOO_SHORT: string;
+        let BAGGAGE_TOO_WIDE: string;
+        let BAGGAGE_TOO_SMALL: string;
+        let BAGGAGE_INVALID_DATA: string;
+        let BAGGAGE_WEIGHT_OUT_OF_RANGE: string;
+        let BAGGAGE_JAMMED: string;
+        let BAGGAGE_WRONG_INSERTED: string;
+        let BAGGAGE_EMERGENCY_STOP: string;
+        let BAGGAGE_RESTLESS: string;
+        let BAGGAGE_TRANSPORT_BUSY: string;
+        let BAGGAGE_MISTRACKED: string;
+        let BAGGAGE_FORWARD_FAILED: string;
+        let BAGGAGE_BACKWARD_FAILED: string;
+        let BAGGAGE_UNEXPECTED_CHANGE: string;
+        let BAGGAGE_ACCEPTED: string;
+        let BAGGAGE_DELIVERED: string;
+        let BAGGAGE_INTERFERENCE_USER: string;
+        let BAGGAGE_INTRUSION_SAFETY: string;
+        let BAGGAGE_NOT_CONVEYABLE: string;
+        let BAGGAGE_IRREGULAR_BAG: string;
+        let BAGGAGE_BAG_WITH_STRAPS: string;
+        let BAGGAGE_UPRIGHT_BAG: string;
+        let BAGGAGE_HANDLE_EXTENDED: string;
+        let BAGGAGE_MULTIPLE_BAGS: string;
+        let BAGGAGE_SLOPED_BAG: string;
+        let BAGGAGE_VOLUME_NOT_DETERMINABLE: string;
+        let BAGGAGE_OVERFLOW_TUB: string;
+        let BAGGAGE_MAINTENANCE_MODE: string;
+        let BAGGAGE_FORCEBAG_MODE: string;
+        let BAGGAGE_MANUAL_MODE: string;
+        let BAGGAGE_OFFBHS_MODE: string;
+        let BAGGAGE_SUSPENDED_MODE: string;
+        let BAGGAGE_OPERATIONAL_STOP: string;
+        let BAGGAGE_TUB_REQUIRED: string;
+        let AL_APPLICATION_REQUEST: string;
+        let CL_APPLICATION_REQUEST: string;
+        let SYSTEM_REQUEST: string;
+        let DEVICE_REQUEST: string;
+        let TRANSFER_REQUEST: string;
+        function constructFromObject(object: any): any;
+    }
+}
