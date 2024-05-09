@@ -16,7 +16,7 @@ import {ApiClient} from '../ApiClient.js';
 import {BaggageDataBaggageMeasurements} from './BaggageDataBaggageMeasurements.js';
 import {BaggageDataBarcodeTagList} from './BaggageDataBarcodeTagList.js';
 import {BaggageDataRfidTagList} from './BaggageDataRfidTagList.js';
-import {StatusCodes} from './StatusCodes.js';
+import {MessageCodes} from './MessageCodes.js';
 
 /**
  * The BaggageData model module.
@@ -52,7 +52,7 @@ export class BaggageData {
       if (data.hasOwnProperty('bsmMessage'))
         obj.bsmMessage = ApiClient.convertToType(data['bsmMessage'], 'String');
       if (data.hasOwnProperty('baggageError'))
-        obj.baggageError = StatusCodes.constructFromObject(data['baggageError']);
+        obj.baggageError = MessageCodes.constructFromObject(data['baggageError']);
     }
     return obj;
   }
@@ -80,7 +80,7 @@ BaggageData.prototype.rfidTagList = undefined;
 BaggageData.prototype.bsmMessage = undefined;
 
 /**
- * @member {module:model/StatusCodes} baggageError
+ * @member {module:model/MessageCodes} baggageError
  */
 BaggageData.prototype.baggageError = undefined;
 

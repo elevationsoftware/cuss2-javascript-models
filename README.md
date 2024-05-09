@@ -132,7 +132,7 @@ npm cuss2-javascript-models --save
  - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.RequestID](docs/RequestID.md)
  - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.RgbType](docs/RgbType.md)
  - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.ScreenResolution](docs/ScreenResolution.md)
- - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.StatusCodes](docs/StatusCodes.md)
+ - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.MessageCodes](docs/MessageCodes.md)
  - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.TransactionDocumentType](docs/TransactionDocumentType.md)
  - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.TransactionReference](docs/TransactionReference.md)
  - [CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.TransactionStatus](docs/TransactionStatus.md)

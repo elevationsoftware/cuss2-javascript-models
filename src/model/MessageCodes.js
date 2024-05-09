@@ -15,11 +15,11 @@
 import {ApiClient} from '../ApiClient.js';
 
 /**
- * Enum class StatusCodes.
+ * Enum class MessageCodes.
  * @enum {String}
  * @readonly
  */
-const StatusCodes = {
+const MessageCodes = {
   /**
    * value: "OK"
    * @const
@@ -501,13 +501,13 @@ const StatusCodes = {
   TRANSFER_REQUEST: "TRANSFER_REQUEST",
 
   /**
-   * Returns a <code>StatusCodes</code> enum value from a JavaScript object name.
+   * Returns a <code>MessageCodes</code> enum value from a JavaScript object name.
    * @param {Object} data The plain JavaScript object containing the name of the enum value.
-  * @return {module:model/StatusCodes} The enum <code>StatusCodes</code> value.
+  * @return {module:model/MessageCodes} The enum <code>MessageCodes</code> value.
    */
   constructFromObject: function(object) {
     return object;
   }
 };
 
-export {StatusCodes};
+export {MessageCodes};

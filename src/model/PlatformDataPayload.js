@@ -20,7 +20,7 @@ import {CommonUsePaymentMessage} from './CommonUsePaymentMessage.js';
 import {ComponentList} from './ComponentList.js';
 import {DataRecordList} from './DataRecordList.js';
 import {EnvironmentLevel} from './EnvironmentLevel.js';
-import {StatusCodes} from './StatusCodes.js';
+import {MessageCodes} from './MessageCodes.js';
 
 /**
  * The PlatformDataPayload model module.

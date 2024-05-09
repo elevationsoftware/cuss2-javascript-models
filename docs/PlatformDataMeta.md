@@ -10,6 +10,6 @@ Name | Type | Description | Notes
 **componentID** | [**ComponentID**](ComponentID.md) |  | [optional] 
 **componentState** | [**ComponentState**](ComponentState.md) |  | [optional] 
 **currentApplicationState** | [**ApplicationState**](ApplicationState.md) |  | 
-**statusCode** | [**StatusCodes**](StatusCodes.md) |  | 
+**messageCode** | [**MessageCodes**](MessageCodes.md) |  | 
 **eventClassification** | [**PlatformDataMetaEventClassification**](PlatformDataMetaEventClassification.md) |  | [optional] 
 **platformDirective** | [**PlatformDirectives**](PlatformDirectives.md) |  | [optional] 

@@ -133,7 +133,7 @@ import {ReceiptData} from './model/ReceiptData.js';
 import {RequestID} from './model/RequestID.js';
 import {RgbType} from './model/RgbType.js';
 import {ScreenResolution} from './model/ScreenResolution.js';
-import {StatusCodes} from './model/StatusCodes.js';
+import {MessageCodes} from './model/MessageCodes.js';
 import {TransactionDocumentType} from './model/TransactionDocumentType.js';
 import {TransactionReference} from './model/TransactionReference.js';
 import {TransactionStatus} from './model/TransactionStatus.js';
@@ -900,10 +900,10 @@ export {
     ScreenResolution,
 
     /**
-     * The StatusCodes model constructor.
-     * @property {module:model/StatusCodes}
+     * The MessageCodes model constructor.
+     * @property {module:model/MessageCodes}
      */
-    StatusCodes,
+    MessageCodes,
 
     /**
      * The TransactionDocumentType model constructor.

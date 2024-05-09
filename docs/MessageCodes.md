@@ -1,4 +1,4 @@
-# CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.StatusCodes
+# CommonUseSelfServiceV2ApiDefinitionCurrentWorkingVersion.MessageCodes
 
 ## Enum
 

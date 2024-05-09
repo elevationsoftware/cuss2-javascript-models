@@ -31,6 +31,7 @@ export class ApplicationDataMeta {
    * @param requestID {module:model/RequestID} 
    * @param oauthToken {String} Application token (JWT) received with the Client Credentials. The token shall be passed with every platfrom directive. 
    * @param directive {module:model/PlatformDirectives} 
+   * @param deviceID  {String} The aggregated identifier of the device/touchpoint as configured by the operator.
    */
   constructor(requestID, oauthToken, directive) {
     this.requestID = requestID;
@@ -56,6 +57,9 @@ export class ApplicationDataMeta {
         obj.directive = PlatformDirectives.constructFromObject(data['directive']);
       if (data.hasOwnProperty('componentID'))
         obj.componentID = ComponentID.constructFromObject(data['componentID']);
+      if (data.hasOwnProperty('deviceID')) {
+        data.deviceID = ApiClient.convertToType(data['deviceID'], 'String');
+      }
     }
     return obj;
   }
@@ -82,3 +86,9 @@ ApplicationDataMeta.prototype.directive = undefined;
  */
 ApplicationDataMeta.prototype.componentID = undefined;
 
+
+/**
+ * The aggregated identifier of the device/touchpoint as configured by the operator.
+ * @member {String} deviceID
+ */
+ApplicationDataMeta.prototype.deviceID = undefined;

@@ -33,18 +33,19 @@ export class PlatformDataMeta {
    * The META data of this message
    * @alias module:model/PlatformDataMeta
    * @class
+   * @param deviceID  {String} The aggregated identifier of the device/touchpoint as configured by the operator.
    * @param timeStamp {Date} Time stamp in UTC format.
    * @param passengerSessionID {module:model/PassengerSessionID} 
    * @param applicationID {module:model/ApplicationID} 
    * @param currentApplicationState {module:model/ApplicationState} 
-   * @param statusCode {module:model/StatusCodes} 
+   * @param messageCode {module:model/MessageCodes} 
    */
-  constructor(timeStamp, passengerSessionID, applicationID, currentApplicationState, statusCode) {
+  constructor(timeStamp, passengerSessionID, applicationID, currentApplicationState, messageCode) {
     this.timeStamp = timeStamp;
     this.passengerSessionID = passengerSessionID;
     this.applicationID = applicationID;
     this.currentApplicationState = currentApplicationState;
-    this.statusCode = statusCode;
+    this.messageCode = messageCode;
   }
 
   /**
@@ -71,12 +72,14 @@ export class PlatformDataMeta {
         obj.componentState = ComponentState.constructFromObject(data['componentState']);
       if (data.hasOwnProperty('currentApplicationState'))
         obj.currentApplicationState = ApplicationState.constructFromObject(data['currentApplicationState']);
-      if (data.hasOwnProperty('statusCode'))
-        obj.statusCode = StatusCodes.constructFromObject(data['statusCode']);
+      if (data.hasOwnProperty('messageCode'))
+        obj.messageCode = MessageCodes.constructFromObject(data['messageCode']);
       if (data.hasOwnProperty('eventClassification'))
         obj.eventClassification = PlatformDataMetaEventClassification.constructFromObject(data['eventClassification']);
       if (data.hasOwnProperty('platformDirective'))
         obj.platformDirective = PlatformDirectives.constructFromObject(data['platformDirective']);
+      if (data.hasOwnProperty('deviceID'))
+        obj.deviceID =ApiClient.convertToType(data['deviceID'], 'String');
     }
     return obj;
   }
@@ -119,9 +122,9 @@ PlatformDataMeta.prototype.componentState = undefined;
 PlatformDataMeta.prototype.currentApplicationState = undefined;
 
 /**
- * @member {module:model/StatusCodes} statusCode
+ * @member {module:model/MessageCodes} messageCode
  */
-PlatformDataMeta.prototype.statusCode = undefined;
+PlatformDataMeta.prototype.messageCode = undefined;
 
 /**
  * @member {module:model/PlatformDataMetaEventClassification} eventClassification
@@ -132,4 +135,10 @@ PlatformDataMeta.prototype.eventClassification = undefined;
  * @member {module:model/PlatformDirectives} platformDirective
  */
 PlatformDataMeta.prototype.platformDirective = undefined;
+
+/**
+ * The aggregated identifier of the device/touchpoint as configured by the operator.
+ * @member {String} deviceID
+ */
+PlatformDataMeta.prototype.deviceID = undefined;
 
